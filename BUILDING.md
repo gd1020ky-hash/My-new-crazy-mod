@@ -1,0 +1,1 @@
+# Building Ultimate GD Toolbox\n\nThis is a source project, not a hand-renamed .geode binary. Build it with Geode SDK 5.10.1 for Android64.\n\nThe official Geode build action can use the exact SDK version from mod.json (`sdk: given`) and target Android64.\n

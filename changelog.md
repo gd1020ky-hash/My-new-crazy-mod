@@ -1,0 +1,1 @@
+# v0.1.1\n\n- Compatibility test build based directly on the known-working v0.1.0 source.\n- No macro code added yet.\n- Preserves the original CMake and source structure.\n

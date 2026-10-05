@@ -1,0 +1,4 @@
+build/
+build-android64/
+.vscode/
+.idea/

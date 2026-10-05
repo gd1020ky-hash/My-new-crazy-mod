@@ -1,0 +1,64 @@
+{
+  "geode": "v5.10.1",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "gd1020ky.ultimategdtoolbox",
+  "name": "Ultimate GD Toolbox",
+  "version": "v0.1.1",
+  "developer": "NaNGD",
+  "description": "Precision frame tools; compatibility test build for Ultimate GD Toolbox.",
+  "tags": [
+    "utility",
+    "offline"
+  ],
+  "settings": {
+    "show-hud": {
+      "name": "Show frame HUD",
+      "description": "Show the live precision frame counter during gameplay.",
+      "type": "bool",
+      "default": true
+    },
+    "tps": {
+      "name": "Timing ticks per second",
+      "description": "Internal timing resolution. Stock Geometry Dash timing is normally measured at 240 ticks per second.",
+      "type": "int",
+      "default": 240,
+      "min": 60,
+      "max": 2400
+    },
+    "window-size": {
+      "name": "Window size",
+      "description": "Number of timing ticks used by the live window monitor.",
+      "type": "int",
+      "default": 4,
+      "min": 1,
+      "max": 2400
+    },
+    "sound-enabled": {
+      "name": "Frame sounds",
+      "description": "Play the bundled marker sound when the live window boundary is reached.",
+      "type": "bool",
+      "default": false
+    },
+    "sound-volume": {
+      "name": "Frame sound volume",
+      "description": "Volume of the frame marker sound.",
+      "type": "float",
+      "default": 0.7,
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.05
+    }
+  },
+  "credits": [
+    {
+      "name": "NaNGD",
+      "role": "Developer — Frame Window Counter"
+    },
+    {
+      "name": "mod maker pro",
+      "role": "Made by"
+    }
+  ]
+}
